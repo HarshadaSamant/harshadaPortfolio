@@ -183,7 +183,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #d8d1d1;
 }
 #about .profile-pic {
    position: relative;
@@ -809,6 +809,10 @@ call-to-action .button {
 	color: #11ABB0;
 	font-size: 13px;
 }
+.address > * {
+   color: #d8d1d1;
+}
+
 #message-warning, #message-success {
    display: none;
 	background: #0F0F0F;

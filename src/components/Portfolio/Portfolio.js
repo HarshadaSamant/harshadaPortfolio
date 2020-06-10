@@ -10,8 +10,6 @@ class Portfolio extends Component {
             { id: '4', name: "Flipbook", src: "images/portfolio/flipbook.jpg", href: "#4", description: "ansns", detailLink: "https://github.com/HarshadaSamant/Flipbook" },
         ]
     }
-        
-    
 
     render() {
         return (

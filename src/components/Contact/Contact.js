@@ -17,8 +17,8 @@ class Contact extends Component {
                                 <span>{this.props.portfolioData.name}</span><br />
                                 <span>{this.props.portfolioData.address}
                                 </span><br />
-                                <span>{this.props.portfolioData.mobNumber}</span><br />
-                                <span>{this.props.portfolioData.mailId}</span>
+                                <span><a href={this.props.portfolioData.mobHref}>{this.props.portfolioData.mobNumber}</a></span><br />
+                                <span><a href={this.props.portfolioData.mailHref}>{this.props.portfolioData.mailId}</a></span>
                             </p>
                             <h4>Let's connect</h4>
                             <div>
