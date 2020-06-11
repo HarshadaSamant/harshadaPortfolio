@@ -191,7 +191,11 @@ ul#nav li.current a { color: #F06000; }
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
+#about .contact-details {
+   width: 100%;
+   margin: auto;
+   text-align: center;
+ }
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
@@ -782,6 +786,7 @@ call-to-action .button {
    font-size: 15px;
    line-height: 24px;
    width: 65%;
+   resize: none !important;
 }
 #contact input:focus,
 #contact textarea:focus,
@@ -789,7 +794,7 @@ call-to-action .button {
 	color: #fff;
 	background-color: #11ABB0;
 }
-#contact button.submit {
+#contact button.send {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
@@ -801,7 +806,7 @@ call-to-action .button {
 	border-radius: 3px;
    margin-left: 26%;
 }
-#contact button.submit:hover {
+#contact button.send:hover {
 	color: #0D0D0D;
 	background: #fff;
 }
@@ -939,3 +944,13 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+.successMsg,
+.errorMsg {
+   color: #fff;
+   display: block;
+   font-size: 20px;
+}
+
+.errorMsg {
+   color: red;
+}

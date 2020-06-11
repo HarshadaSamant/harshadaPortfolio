@@ -1,5 +1,4 @@
 const portfolioData =  {
-    "imagebaseurl": "http://localhost:3000/",
     "name": "Harshada Samant",
     "role": "Frontend Developer",
     "roleDescription": "based at Mumbai location and working on frontend techniques like HTML5, css3 and scss, bootstrap4 and Frontend frameworks like react, angular, angularJs",
@@ -31,7 +30,7 @@ const portfolioData =  {
     "work2Duration": "June 2019 - Present",
     "work2Role": "Frontend Developer",
     "work2Description": "Working closely with UI/UX designer and developing a user interface with HTML5, css3, sass, bootstrap 4, JavaScript, JSX, jQuery, Angular 8 framework, reusable code development and theme building using StencilJs and working with version control tools like git. Handling client projects with an agile methodology and be a part of the sprint meetings",
-    "thankYouNote": "Thank you for vising my portfolio. You can connect with me using contact details as well as social media profile. Have a look at the github link to know more about my work."
+    "thankYouNote": "Thank you for visiting my portfolio. You can connect with me using contact details as well as social media profile. Have a look at the github link to know more about my work."
 }
 
 export default portfolioData;

@@ -500,6 +500,7 @@ input[type="password"],
 input[type="email"],
 textarea,
 select {
+   resize: none !important;
    display: block;
    padding: 18px 15px;
    margin: 0 0 24px 0;
