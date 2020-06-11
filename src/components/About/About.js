@@ -23,7 +23,6 @@ class About extends Component {
                             <span>{this.props.portfolioData.name}</span><br />
                             <span>{this.props.portfolioData.address}
                             </span><br />
-                            <span><a href={this.props.portfolioData.mobHref}>{this.props.portfolioData.mobNumber}</a></span><br />
                             <span><a href={this.props.portfolioData.mailHref}>{this.props.portfolioData.mailId}</a></span>
                             </p>
                         </div>

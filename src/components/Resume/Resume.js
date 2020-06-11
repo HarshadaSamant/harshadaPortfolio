@@ -26,18 +26,12 @@ class Resume extends Component {
                         <div className="twelve columns">
                             <h3>{this.props.portfolioData.jrCollegeName}</h3>
                             <p className="info"> from {this.props.portfolioData.jrUniversityName} <span>•</span> {this.props.portfolioData.stream} <em className="date">{this.props.portfolioData.jrCollegeDuration}</em></p>
-                            <p>
-                                {this.props.portfolioData.jrCollegeExperience}
-                            </p>
                         </div>
                         </div> {/* item end */}
                         <div className="row item">
                         <div className="twelve columns">
                             <h3>{this.props.portfolioData.schoolName}</h3>
                             <p className="info"> from {this.props.portfolioData.schoolBoard} <span>•</span> <em className="date">{this.props.portfolioData.schoolDuration}</em></p>
-                            <p>
-                                {this.props.portfolioData.schoolExperience}
-                            </p>
                         </div>
                         </div> {/* item end */}
                     </div> {/* main-col end */}
