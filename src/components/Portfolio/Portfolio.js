@@ -8,7 +8,7 @@ class Portfolio extends Component {
                 name: "Burger Builder", 
                 src: "images/portfolio/burger.jpg", 
                 href: "#1", 
-                description: "Build in react for frontend and firebase for backend and axios for api calling. Developed using react concepts like stateful and stateless components, state management, lifecycle hooks and various interesting features.", 
+                description: "Built with react for frontend and firebase for backend and axios for api calling. Developed using react concepts like stateful and stateless components, state management, lifecycle hooks and various interesting features.", 
                 detailLink: "https://github.com/HarshadaSamant/Burger-Builder-App" 
             },
             { id: '2', 
