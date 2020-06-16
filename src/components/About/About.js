@@ -14,19 +14,19 @@ class About extends Component {
                             <p>
                                 {this.props.portfolioData.aboutDescription}
                             </p>
+                            <div className="row">
+                                <div className="columns contact-details">
+                                    <h2>Contact Details</h2>
+                                    <p className="address">
+                                    <span>{this.props.portfolioData.name}</span><br />
+                                    <span>{this.props.portfolioData.address}
+                                    </span><br />
+                                    <span><a href={this.props.portfolioData.mailHref}>{this.props.portfolioData.mailId}</a></span>
+                                    </p>
+                                </div>
+                            </div> {/* end row */}
                         </div> {/* end .main-col */}
                     </div>
-                    <div className="row">
-                        <div className="columns contact-details">
-                            <h2>Contact Details</h2>
-                            <p className="address">
-                            <span>{this.props.portfolioData.name}</span><br />
-                            <span>{this.props.portfolioData.address}
-                            </span><br />
-                            <span><a href={this.props.portfolioData.mailHref}>{this.props.portfolioData.mailId}</a></span>
-                            </p>
-                        </div>
-                    </div> {/* end row */}
                 </section>
             </Fragment>
         )

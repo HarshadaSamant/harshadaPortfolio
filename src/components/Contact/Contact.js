@@ -28,11 +28,11 @@ class Contact extends Component {
         } else {
             axios.post('/contact.json', contactData)
             .then(response => {
-                this.setState({loading: false, successMassage: <span className="successMsg">Your message has been sent successfully</span>});
+                this.setState({name:'', message: '', loading: false, successMassage: <span className="successMsg">Your message has been sent successfully</span>});
             })
             .catch(error => {
                 console.log(error);
-                this.setState({loading: false, successMassage: <span className="errorMsg">Sorry, Failed to send your message</span>});
+                this.setState({name:'', message: '', loading: false, successMassage: <span className="errorMsg">Sorry, Failed to send your message</span>});
             });
         }
     }
