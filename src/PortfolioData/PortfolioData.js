@@ -2,7 +2,7 @@ const portfolioData =  {
     "name": "Harshada Samant",
     "role": "Frontend Developer",
     "roleDescription": "based at Mumbai location and working on frontend techniques like HTML5, css3 and scss, bootstrap4 and Frontend frameworks like react, angular, angularJs",
-    "aboutDescription": "I am self-motivated and passionate programmer, always looking for an opportunity to learn and grow. I love to interact with people and connect with them. I believe if we don't know something then it is ok but if we don't want to know something then there is a huge problem. ",
+    "aboutDescription": "I am self-motivated and a passionate programmer, always looking for an opportunity to learn and grow. I love to interact with people and connect with them. I believe if we don't know something then it is ok but if we don't want to know something then there is a huge problem. ",
     "address": "Malad, Mumbai-400064, Maharashtra, India",
     "mailId": "harshadasamant03@gmail.com",
     "mailHref": "mailto:someone@example.com",
